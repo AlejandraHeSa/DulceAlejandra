@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(209,157,244);
+    background: linear-gradient(90deg,
+    rgba(209,157,244,0.6922969016708246) 0%, rgba(255,92,210,1) 50%, rgba(255,203,237,0.74831931063441) 100%);
+}
+.contenido{
+    background-color: #9d4873;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+h1{
+    font-size: 40px;
+}
+.nav-bar ul{
+    background-color: #dc9dbd;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+.nav-bar li{
+    display: inline-flex;
+}
+.nav-bar a{
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    width: 170px;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+.nav-bar li:hover{
+    background-color: linen;
+    box-shadow: 1px 5px 8px rgba(0,0,0,0.2);
+}
+
+.titulo{
+    background-color: darkseagreen;
+}
+.titulo h3{
+    color:darkslategrey;
+    font-size: 50px;
+    text-align: center;
+}
+.texto{
+    padding: 30px;
+}
+.texto p{
+    padding: 20px;
+    text-align: justify;
+    font-size: 23px;
+    font-family: serif;
+}
+.titulo2{
+    background-color: lightseagreen;
+}
+.titulo2 h3{
+    color:lightcyan;
+    font-size: 50px;
+    text-align: center;
+}
+.texto2{
+    padding: 30px;
+}
+.texto2 p{
+    padding: 20px;
+    text-align: justify;
+    font-size: 23px;
+    font-family: serif;
+}
+iframe{
+    border-radius: 30px;
+    box-shadow: 15px 12px 20px rgba(0, 0, 1, 0.5);
+}
+.imgPeli{
+    border-radius: 30px;
+    box-shadow: 15px 12px 20px rgba(0, 0, 1, 0.5);
+}
+.imagenes{
+    width:270px;
+    height:370px;
+    margin-left: 15px;
+    border-radius:25px;
+    transition: all 1.2s ease;
+}
+.imagenes:hover{
+    box-shadow: 15px 12px 20px rgba(1, 0, 0.2, 0.5);
+    transform: scale(1.1);
+}
+.card{
+    background-color: white;
+    padding:30px;
+    margin-left:20px;
+    width: 65%;
+    margin: 0 auto;
+    border-radius: 50px;
+    box-shadow: 15px 12px 20px rgba(177, 134, 201, 0.7);
+}
+footer{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg,
+        rgba(131,58,180,0.6922969016708246) 0%, rgba(150,96,135,1) 50%, rgba(252,69,189,0.74831931063441) 100%);
+}
+footer h2{
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color:white;
+}

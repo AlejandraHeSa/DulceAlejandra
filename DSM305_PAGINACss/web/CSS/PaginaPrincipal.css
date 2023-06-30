@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   background-image: url(../img/diamantes.jpg);
+}
+.contenido{
+    background-color: #d24d7b;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+h1{
+    font-size: 40px;
+}
+.nav-bar ul{
+   background-color: #f09bc8;
+   width: 100%;
+   list-style-type: none;
+   text-align: center;
+}
+.nav-bar li{
+    display: inline-flex;
+}
+.nav-bar a{
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    width: 170px;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+.nav-bar li:hover{
+    background-color: linen;
+    box-shadow: 1px 5px 8px rgba(0,0,0,0.2);
+}
+.seccion{
+    display: flex;
+    margin:70px;
+}
+.caja{
+    width: 65%;
+    height: auto;
+    padding:35px;
+    background-color:white;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+.contenedor-informacion{
+    padding: 35px;
+    text-align: justify;
+    font-size: 25px;
+}
+.contenedor-informacion h2{
+    text-align: center;
+}
+.contenedor-imagenes{
+    width: auto;
+    height: auto;
+    padding: 15px;
+    margin: 0;
+}
+img{
+    width: 340px;
+    height: 420px;
+    border-radius: 70%;
+    transition: all 0.2s ease-in-out;
+}
+img:hover{
+     box-shadow: 1px 10px 25px rgba(0,0,0,0.5);
+}
+footer{
+    background-color: #d24d7b;
+}
+footer h2{
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+    color:white;
+}
